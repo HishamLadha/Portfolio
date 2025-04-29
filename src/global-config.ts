@@ -1,7 +1,6 @@
 // ----------------------------------------------------------------------
-
-import {Experience, Profile, Project, Recommendation} from "@/types";
-import {experiences, profile, projects, recommendations, skills} from "@/data";
+import {Experience, Profile, Project} from "@/types";
+import {experiences, profile, projects, skills} from "@/data";
 
 export type ConfigValue = {
   profileName: string;
@@ -14,7 +13,6 @@ export type ConfigValue = {
   experience: Experience[]
   profile: Profile
   projects: Project[]
-  recommendations: Recommendation[]
   skills: string[]
   twitter: {
     card: "summary" | "summary_large_image" | "player" | "app";
@@ -33,15 +31,14 @@ export const CONFIG: ConfigValue = {
   about: "I mostly do Full-stack development with an eye for good design and pretty good grasp of all parts of the stack including the frontend, backend, databases, devops, and cloud.",
   icon: '/avatar.svg',
   noIndex: false,
-  websiteUrl: 'https://www.beaudelaire.ca',
+  websiteUrl: 'https://www.hishamladha.ccom',
   experience: experiences,
   profile: profile,
   projects: projects,
-  recommendations: recommendations,
   skills: skills,
   twitter: {
     card: 'summary_large_image',
-    creator: '@beaudelaire001'
+    creator: ''
   },
   assetsDir: process.env.NEXT_PUBLIC_ASSETS_DIR ?? "",
   /**
