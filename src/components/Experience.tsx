@@ -39,13 +39,13 @@ export const Experience = () => {
                                     {exp.duration}
                                 </p>
                                 <p className="text-sm mt-2">{exp.description}</p>
-                                { exp.images && (
+                                {/* { exp.images && (
                                 <ExpImages
                                     role={exp.role}
                                     link={exp.link}
                                     images={exp.images}
                                     duration={exp.duration}
-                                /> )}
+                                /> )} */}
                             </li>
                         ))}
                     </ul>
