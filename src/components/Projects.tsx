@@ -50,7 +50,7 @@ export const Projects = () => {
                                         <div
                                             className={cn(
                                                 "size-4 rounded-full",
-                                                techColors[p.tech[0] as keyof typeof techColors]
+                                                techColors[Object.keys(techColors)[Math.floor(Math.random() * Object.keys(techColors).length)] as keyof typeof techColors]
                                             )}
                                         />
                                         <span className="text-xs font-medium text-muted-foreground">
@@ -59,15 +59,14 @@ export const Projects = () => {
                                     </div>
                                     { p.link === "#" ? (
                                         <span className="bg-blue-300 dark:bg-blue-800 dark:text-blue-200 px-2 py-1 rounded-sm text-xs">
-                                            Coming Soon
+                                            Private
                                         </span>
                                     ) : (
                                         <Link
                                             href={p.link}
-                                            className="flex items-center gap-2 text-sm text-primary hover:underline"
+                                            className="flex items-center text-sm text-primary hover:underline"
                                         >
-                                            View Project
-                                            <ExternalLink className="inline-block size-3" />
+                                            <ExternalLink className="inline-block size-4" />
                                         </Link>
                                     )}
                                 </div>

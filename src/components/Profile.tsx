@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import useMediaQuery from "@/hook/useMediaQuery";
 
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaCalendarAlt } from "react-icons/fa";
 
 import {
     Card,
@@ -16,7 +16,8 @@ import {CONFIG} from "@/global-config";
 const iconMap = {
     "github": <FaGithub className="size-4" />,
     "linkedin": <FaLinkedin className="size-4" />,
-    "instagram": <FaInstagram className="size-4" />
+    "instagram": <FaInstagram className="size-4" />,
+    "calendar": <FaCalendarAlt className="size-4" />
 }
 export const Profile = () => {
     const isDesktopOrLaptop = useMediaQuery("(min-width: 1224px)");
@@ -50,11 +51,11 @@ export const Profile = () => {
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         <Link
-                            href={CONFIG.profile.contactUrl}
+                            href={CONFIG.resumeUrl}
                             target="_blank"
                             className="font-semibold uppercase"
                         >
-                            CONTACT ME
+                            Resume
                         </Link>
                     </Button>
                     <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">

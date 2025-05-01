@@ -10,6 +10,7 @@ export type ConfigValue = {
   icon: string;
   noIndex: boolean;
   websiteUrl: string;
+  resumeUrl: string;
   experience: Experience[]
   profile: Profile
   projects: Project[]
@@ -31,7 +32,8 @@ export const CONFIG: ConfigValue = {
   about: "I mostly do Full-stack development with an eye for good design and pretty good grasp of all parts of the stack including the frontend, backend, databases, devops, and cloud.",
   icon: '/avatar.svg',
   noIndex: false,
-  websiteUrl: 'https://www.hishamladha.ccom',
+  websiteUrl: 'https://www.hishamladha.com',
+  resumeUrl: 'https://hishamladha.com',
   experience: experiences,
   profile: profile,
   projects: projects,

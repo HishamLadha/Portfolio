@@ -15,7 +15,7 @@ export const experiences: Experience[] = [
         company: "Royal Bank of Canada",
         logo: "https://cdn.worldvectorlogo.com/logos/rbc-shield.svg",
         duration: "Jan 2024 - Apr 2024",
-        description: " Developed frontend online banking features for projects including International Money Transfer and Add Bill Payee",
+        description: " Developed frontend online banking features for projects including International Money Transfer and Add Bill Payee.",
         link: "https://www.linkedin.com/feed/update/urn:li:activity:7239290677065342976/",
         images: [],
     },
@@ -33,53 +33,44 @@ const socials = [
         link: "https://www.linkedin.com/in/HishamLadha",
         icon: "linkedin"
     },
+    {
+        name: "Calendar",
+        link: "https://cal.com/hisham-ladha",
+        icon: "calendar"
+    }
 ]
 
 export const profile: Profile = {
     name: "Hisham Ladha",
     title: "",
-    about: "",
+    about: "Computer Science at Concordia University",
     contactUrl: "https://cal.com/hisham-ladha",
     socials: socials
 }
 
 export const projects: Project[] = [
     {
-        title: "Linky",
-        description: "Modern Alumni/Current Student Network, with profiles periodically updated from LinkedIn",
-        tech: ["TS", "AI"],
+        title: "Scoper.fyi",
+        description: "A simplified version of levels.fyi for Canadian internships.",
+        tech: ["Next", "TS", "Python"],
+        link: "https://scoper.fyi",
+        logo: "/linky.svg",
+    },
+    {
+        title: "Low level PCAP Parser",
+        description: "Developed a Python script for raw PCAP analysis, extracting metrics and identifying scanning patterns.",
+        tech: ["Python"],
         link: "#",
         logo: "/linky.svg",
     },
-    // {
-    //     title: "ConcordiaAI",
-    //     description: "A Rag Chatbot that can answer questions related to courses and instructors at Concordia",
-    //     tech: ["LibreChat Fork"],
-    //     link: "https://chat.concordia.courses",
-    //     logo: "https://concordia.courses/apple-touch-icon.png",
-    // },
-    // {
-    //     title: "Flymile",
-    //     description: "Flight search engine designed for credit card points enthusiasts",
-    //     tech: ["React", "Java"],
-    //     link: "https://flymile.pro",
-    //     logo: "https://flymile.pro/apple-touch-icon.png",
-    // },
-    // {
-    //     title: "Concordia courses",
-    //     description: "A course and instructor review platform for Concordia students like RateMyProfessors, but better",
-    //     tech: ["Svelte", "Java", "Python"],
-    //     link: "https://concordia.courses",
-    //     logo: "https://concordia.courses/apple-touch-icon.png",
-    // },
-    // {
-    //     title: "Visual Schedule Builder Export",
-    //     description: "Google Chrome extension to export Concordia's course schedule from Visual Schedule Builder to your google calendar",
-    //     tech: ["JavaScript"],
-    //     link: "https://chromewebstore.google.com/detail/visual-schedule-builder-e/nbapggbchldhdjckbhdhkhlodokjdoha",
-    //     logo: "https://lh3.googleusercontent.com/nG7p7IQV9gKROILl_vws-1iRxyLh2brXR6h-e6ucfQH1KSDKRWZob-zyaDWhUhEmcYl5TcCGWY1r2kH3hShC6R84=s60",
-    // },
+    {
+        title: "Phoenix",
+        description: "Automated penetration testing tool that scans a network, performs machine and port enumeration and simultaneously runs exploits.",
+        tech: ["React.js", "Python", "Nmap", "Metasploit"],
+        link: "https://devpost.com/software/phoenix-ub8lzo",
+        logo: "/linky.svg",
+    },
 ]
 
 
-export const skills = ["TS/JS", "Python", "Java", "Go", "NextJS", "MongoDB", "PostgreSQL", "Git", "Docker"]
+export const skills = ["TS/JS", "Python", "Java", "Next.js", "Angular.js", "MongoDB", "SQL", "Git", "Docker"]
