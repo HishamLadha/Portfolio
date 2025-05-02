@@ -42,7 +42,7 @@ export const Projects = () => {
                                         {p.title}
                                     </Link>
                                 )}
-                                <p className="text-sm text-muted-foreground mt-1 mb-4">
+                                <p className="text-sm text-muted-foreground mt-2 mb-3">
                                     {p.description}
                                 </p>
                                 <div className="mt-auto flex items-center justify-between">
