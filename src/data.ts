@@ -52,7 +52,7 @@ export const projects: Project[] = [
     {
         title: "Scoper.fyi",
         description: "A simplified version of levels.fyi for Canadian internships.",
-        tech: ["Next", "TS", "Python"],
+        tech: ["TypeScript", "Next.js", "Python"],
         link: "https://scoper.fyi",
         logo: "/linky.svg",
     },
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     },
     {
         title: "Phoenix",
-        description: "Automated penetration testing tool that scans a network, performs machine and port enumeration and simultaneously runs exploits.",
+        description: "Automated penetration testing tool that scans a network, performs enumeration and simultaneously runs exploits.",
         tech: ["React.js", "Python", "Nmap", "Metasploit"],
         link: "https://devpost.com/software/phoenix-ub8lzo",
         logo: "/linky.svg",

@@ -7,8 +7,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import {CONFIG} from "@/global-config";
 
 const techColors = {
-    "TS": "bg-blue-500",
-    "React": "bg-pink-500",
+    "TypeScript": "bg-blue-500",
+    "React.js": "bg-pink-500",
     "React Native": "bg-green-500",
     "LibreChat Fork": "bg-green-500",
     "Svelte": "bg-red-500",
@@ -50,7 +50,7 @@ export const Projects = () => {
                                         <div
                                             className={cn(
                                                 "size-4 rounded-full",
-                                                techColors[Object.keys(techColors)[Math.floor(Math.random() * Object.keys(techColors).length)] as keyof typeof techColors]
+                                                techColors[p.tech[0] as keyof typeof techColors]
                                             )}
                                         />
                                         <span className="text-xs font-medium text-muted-foreground">

@@ -49,15 +49,26 @@ export const Profile = () => {
                     <p className="mt-2 text-start text-sm text-muted-foreground">
                         {CONFIG.profile.about}
                     </p>
-                    <Button className="mt-4 w-full" asChild>
-                        <Link
-                            href={CONFIG.resumeUrl}
-                            target="_blank"
-                            className="font-semibold uppercase"
-                        >
-                            Resume
-                        </Link>
-                    </Button>
+                    <div className="flex flex-row gap-1 w-full">
+                        <Button className="mt-4 w-full" asChild>
+                            <Link
+                                href={CONFIG.resumeUrl}
+                                target="_blank"
+                                className="font-semibold uppercase"
+                            >
+                                Resume
+                            </Link>
+                        </Button>
+                        <Button className="mt-4 w-full" asChild>
+                            <Link
+                                href={CONFIG.resumeUrl}
+                                target="_blank"
+                                className="font-semibold uppercase"
+                            >
+                                Resume
+                            </Link>
+                        </Button>
+                    </div>
                     <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">
                         {CONFIG.profile.socials.map((s, i) => {
                             const parts = s.link.split("/");
