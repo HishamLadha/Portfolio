@@ -54,21 +54,21 @@ export const projects: Project[] = [
         description: "A simplified version of levels.fyi for Canadian internships.",
         tech: ["TypeScript", "Next.js", "Python"],
         link: "https://scoper.fyi",
-        logo: "/linky.svg",
+        logo: "/scoper-logo.svg",
     },
     {
         title: "Low level PCAP Parser",
         description: "Developed a Python script for raw PCAP analysis, extracting metrics and identifying scanning patterns.",
         tech: ["Python"],
         link: "#",
-        logo: "/linky.svg",
+        logo: "https://fileinfo.com/img/icons/files/256/pcap-1265.png",
     },
     {
         title: "Phoenix",
         description: "Automated penetration testing tool that scans a network, performs enumeration and simultaneously runs exploits.",
         tech: ["React.js", "Python", "Nmap", "Metasploit"],
         link: "https://devpost.com/software/phoenix-ub8lzo",
-        logo: "/linky.svg",
+        logo: "/pheonix.png",
     },
 ]
 

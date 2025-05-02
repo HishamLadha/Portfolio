@@ -38,7 +38,7 @@ export const Projects = () => {
                                         href={p.link}
                                         className="font-semibold text-primary hover:underline flex items-center"
                                     >
-                                        <img src={p.logo} className="h-6 w-6 inline-block mr-2"/>
+                                        <img src={p.logo} className="h-6 w-6 inline-block mr-2 bg-white p-[0.1rem] rounded-sm"/>
                                         {p.title}
                                     </Link>
                                 )}
