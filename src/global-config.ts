@@ -11,6 +11,7 @@ export type ConfigValue = {
   noIndex: boolean;
   websiteUrl: string;
   resumeUrl: string;
+  blogUrl: string;
   experience: Experience[]
   profile: Profile
   projects: Project[]
@@ -29,11 +30,12 @@ export const CONFIG: ConfigValue = {
   profileName: 'Hisham Ladha',
   profileDescription: "I am a software engineering student at concordia and i love to build.",
   profileImage: 'https://media.licdn.com/dms/image/v2/D4D03AQGQYw-Dq1XswA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1716430041644?e=1751500800&v=beta&t=vXNs54u0_ZSpp0vmre7AfSXjofZKDQotWAbAu2I168s',
-  about: "I love to have fun by building and breaking code. Either by bringing ideas to life through full stack apps or breaking them doing CTF's.",
+  about: "I love to have fun by building and breaking code. Either by bringing ideas to life through full-stack apps or breaking them doing CTF's.",
   icon: '/avatar.svg',
   noIndex: false,
   websiteUrl: 'https://www.hishamladha.com',
-  resumeUrl: 'https://hishamladha.com',
+  resumeUrl: './HishamLadhaResume.pdf',
+  blogUrl: "https://hisham.bearblog.dev/",
   experience: experiences,
   profile: profile,
   projects: projects,

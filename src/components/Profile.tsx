@@ -12,6 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
 import {CONFIG} from "@/global-config";
+import { ExternalLink } from "lucide-react";
 
 const iconMap = {
     "github": <FaGithub className="size-4" />,
@@ -61,11 +62,11 @@ export const Profile = () => {
                         </Button>
                         <Button className="mt-4 w-full" asChild>
                             <Link
-                                href={CONFIG.resumeUrl}
+                                href={CONFIG.blogUrl}
                                 target="_blank"
                                 className="font-semibold uppercase"
                             >
-                                Resume
+                                Blog <ExternalLink />
                             </Link>
                         </Button>
                     </div>

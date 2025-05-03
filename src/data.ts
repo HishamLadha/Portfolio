@@ -58,7 +58,7 @@ export const projects: Project[] = [
     },
     {
         title: "Low level PCAP Parser",
-        description: "Developed a Python script for raw PCAP analysis, extracting metrics and identifying scanning patterns.",
+        description: "A tool for raw PCAP analysis, extracting metrics and identifying scanning patterns.",
         tech: ["Python"],
         link: "#",
         logo: "https://fileinfo.com/img/icons/files/256/pcap-1265.png",
@@ -73,4 +73,4 @@ export const projects: Project[] = [
 ]
 
 
-export const skills = ["TS/JS", "Python", "Java", "Next.js", "Angular.js", "MongoDB", "SQL", "Git", "Docker"]
+export const skills = ["TS/JS", "Python", "Java", "C++", "Next.js", "Angular.js", "MongoDB", "SQL", "Git", "Docker"]
