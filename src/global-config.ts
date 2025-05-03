@@ -29,7 +29,7 @@ export type ConfigValue = {
 export const CONFIG: ConfigValue = {
   profileName: 'Hisham Ladha',
   profileDescription: "Computer Science Student at Concordia University.",
-  profileImage: 'https://media.licdn.com/dms/image/v2/D4D03AQGQYw-Dq1XswA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1716430041644?e=1751500800&v=beta&t=vXNs54u0_ZSpp0vmre7AfSXjofZKDQotWAbAu2I168s',
+  profileImage: '/profile-photo.jpeg',
   about: "I love to have fun by building and breaking code. Either by bringing ideas to life through full-stack apps or breaking them doing CTF's.",
   icon: '/web-avatar.svg',
   noIndex: false,

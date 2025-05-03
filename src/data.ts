@@ -1,4 +1,4 @@
-import {Experience, Profile, Project, Recommendation} from "@/types";
+import {Experience, Profile, Project} from "@/types";
 
 export const experiences: Experience[] = [
     {

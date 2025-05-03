@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link";
-import Image from "next/image";
 import useMediaQuery from "@/hook/useMediaQuery";
 
 import { FaGithub, FaLinkedin, FaInstagram, FaCalendarAlt } from "react-icons/fa";
@@ -29,10 +28,9 @@ export const Profile = () => {
                 <div className="flex flex-col items-start gap-2 ">
                     <div className="w-full flex flex-row justify-between items-top ">
                         <div className="flex flex-row md:flex-col items-center md:items-start w-full gap-4">
-                            <Image
+                            <img
                                 width={150}
                                 height={150}
-                                quality={100}
                                 src={CONFIG.profileImage}
                                 alt="Profile Picture"
                                 className="rounded-full size-12 md:w-full h-auto object-cover border-2"

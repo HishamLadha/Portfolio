@@ -4,7 +4,6 @@ import { CalendarDays } from "lucide-react";
 
 import { Card, CardContent } from "@/components/ui/card";
 
-import { ExpImages } from "@/components/ExpImages";
 import {CONFIG} from "@/global-config";
 
 export const Experience = () => {
